@@ -25,7 +25,7 @@
 (setq browse-url-browser-function 'eww-browse-url) ; emacs browser
 
 ;; Fringe
-(setq fringe-mode 'minimal)
+(set-fringe-mode '(0 . 0))
 
 ;; Font
    (set-face-attribute 'default nil
